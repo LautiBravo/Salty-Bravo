@@ -1,0 +1,351 @@
+/* Selector */
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+/* importe de font desde googlefonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+/* Header */
+
+.estiloheader{
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+li{
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+nav{
+    float: right;
+    margin-top: 70px;
+    margin-right: 550px;
+    position: relative;
+}
+
+/* Fin de Header/*
+
+/* Articulos */
+/* Tarjetas */
+
+/* Index */
+
+.newarrival {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-bottom: 150px;
+}
+    
+.divnewarrivals h2 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    font-size: 80px;
+    line-height: 1.6;
+    margin-top: 50px;
+}
+
+.slide{
+    grid-area: 1 / 2 / 2 / 3; 
+    width: 600px;
+    height: 400px;   
+    margin: auto;
+    margin-top: 20px;    
+    border-style: solid;
+    border-width: 2px;
+    overflow: hidden; 
+}
+
+.imgenarticle{
+    width: 580px;
+    height: 400px;
+}
+
+
+.display-6{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.productos{
+    text-align: center;
+}
+
+body{
+    background-image: url('../assets/img/F2F2F2.png');
+    background-size: cover;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+article{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+
+
+.containerproductos{
+    width: 100%;
+    max-width: 1100px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.containerproductos .cardsproductos{
+    width: 300px;
+    height: 370px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgb(247, 247, 247);
+}
+
+.containerproductos .cardsproductos:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.containerproductos .cardsproductos img{
+    width: 300px;
+    height: 270px;
+}
+
+.containerproductos .cardsproductos h5{
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.containerproductos .cardsproductos p{
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* fin de tarjetas */
+
+/* Box Modeling */
+
+.boxModelpagos{    
+    background-color: black;
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 50px;
+    position: relative;
+    border-style: solid;
+    border: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: white;
+    
+        
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.cuotas { 
+    grid-area: 1 / 1 / 2 / 2;
+    margin-left: 400px;
+}
+.descuento { 
+    grid-area: 1 / 2 / 2 / 3;   
+    margin-right: 400px;
+}
+
+/* Pagin Ubicacion */
+
+.boxModelUbi{    
+    width: 536px;
+    height: 368px;   
+    margin: auto;
+    margin-top: 20px;    
+    border-style: solid;
+    border-width: 5px;
+    overflow: hidden;    
+}
+
+/* Fin de box modeling */
+
+.ubicacion{
+    width: 536px;
+    height: 368px; 
+}
+
+h3{
+    font-style: italic;    
+}
+
+/* Pagina Sobre Nosotros */
+
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 500px;
+    text-align: left;    
+    line-height: 2;
+    font-weight: 300;
+    
+}
+    
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    font-weight: 300;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    width: 560px;
+    height: 316px;      
+    border-style: solid;
+    border-width: 2px;
+    overflow: hidden;
+}
+
+
+/* Pagina Contacto */
+
+.formcontacto {
+    background-color: #FFFFFF;
+    width: 700px;
+    margin: auto;
+    padding: 20px; 
+    margin-top: 60px;
+    border-radius: 4px;
+}
+
+.typeform1{
+    width: 500px;
+    background-color: black;
+    margin-top: 5px;
+    margin-right: 60px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px gray;
+    color: white;
+}
+
+.botones{
+    width: 50%;    
+    margin-left: 170px;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+.textform1{
+    color: black;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.tituloformcontacto{
+    text-align: center;
+    font-size: 15px;
+}
+
+.opciones{
+    margin-left: 10px;
+    margin-right: 60px;
+    font-size: medium;
+}
+
+/* Fin de articulos/*
+
+/* Footer */
+
+footer{
+    background-color: rgb(34, 34, 36);
+    color: white;
+    width: 100%;
+}
+
+.container-body{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+}
+
+.logof{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.column1{
+    max-width: 1200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: relative;
+    float: right; 
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roww{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.row1{
+    margin:20px 20px;
+    padding-top: 0px;
+    padding-left: 20px;      
+    text-align: center;
+    font-size: 20px;
+}
