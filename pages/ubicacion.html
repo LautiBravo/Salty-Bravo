@@ -17,26 +17,53 @@
 
 </head>
 <body>
-    <!--fila de logo + nav-->
-    <header class="estiloheader">
-        <img class="logo" src="../assets/img/LOGO.jpeg">
-        <nav class="nav">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/productos.html">Productos</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-                <li><a href="../pages/sobrenosotros.html">Sobre Nosotros</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
-                <li><a href="https://www.instagram.com/salty.clothing_/" target="_blank">Seguinos</a></li>
+    <!-- Fila de Nav -->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item mr-auto">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/sobrenosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../pages/ubicacion.html">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/salty.clothing_/" target="_blank">Seguinos</a>
+                </li>
+
             </ul>
-        </nav>
-    </header>
-    <!--cierre de fila de logo + secciones-->
+
+        </div>
+
+    </nav>
+
+    <!--cierre de nav-->
+
     <!--fila de información de mi ubicacion-->
 	<section>
         
         <br></br>
-        <h1 class="display-6"><strong>UBICACIÓN</strong></h1>
+        <h1 class="display-4 text-center"><strong>UBICACIÓN</strong></h1>
         
 		<article class="boxModelUbi">
 			<iframe class="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52575.77116216701!2d-58.7713244494997!3d-34.55391751041882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd7f8ed7ed6f%3A0xa141f13ddb761d51!2sSan%20Miguel%2C%20Buenos%20Aires%20Province!5e0!3m2!1sen!2sar!4v1642040103143!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -46,78 +73,79 @@
     <br></br>
     
     <!--cierre de información de mi ubicacion-->
-    <!--inicio de footer-->
-    <br></br>    
-    <footer>
-        <div class="container-body">
+    <!-- Inicio de Footer -->
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        
+        <div class="conteiner text-center text-md-left">
             
-            <div class="logofooter">
-                <img class="logof" src="../assets/img/LOGO.jpeg">
-                <div class="row1">
-                    <label>Privacy-Terms</label>                    
-                    <hr></hr>
-                    <label>©2020 — 2022</label>                                 
+            <div class="row text-center text-md-left">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+
+                    <h2 class="text-uppercase mb-4 font-weight-bold textwarning">Salty</h2>
+                    <p>Privacy-Terms <br></br>©2020 — 2022</p>
+                    
                 </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold textwarning">Productos</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold textwarning">Contacto</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold textwarning">Metodos de pago</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Link</a>
+                    </p>
+                </div>
+
+
             </div>
-            
-            <div class="column1">
-                <h1>Contactanos</h1>
 
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-            </div>
+        </div>
 
-            <div class="column1">
-                <h1>Categorías</h1>
 
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-            </div>
-
-            <div class="column1">
-                <h1>Metodos de pago</h1>
-
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-            </div>
-
-            <div class="column1">
-                <h1>Quik Links</h1>
-
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-                <div class="roww">
-                    <label>xxxxx</label>    
-                </div>
-            </div>
-        </div>         
     </footer>
-    <!--cierre de footer-->
+
+    <!-- Fin de footer -->
+
 
     <!-- JS Bootstrap -->
 
