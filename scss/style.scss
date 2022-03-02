@@ -8,10 +8,44 @@
 
 /* Variable */
 
-$colorp: #c7bcac;
+$colorp: #c7acac;
 $colorbg: #1A1E21;
 $colorborder: #81581b;
 
+/* Extend */
+
+.enviar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: $colorbg;
+    background-color: $colorborder;
+    border-radius: 6px;
+    border: 2px solid #000000;
+}
+
+.borrar{
+    @extend .enviar;
+}
+
+/* Mixin */
+
+@mixin descuento {
+    background-color: rgb(44, 44, 44);
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.descuento1{
+    @include descuento;
+}
+
+.descuento2{
+    @include descuento;
+}
 
 /* Articulos */
 
